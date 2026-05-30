@@ -1,0 +1,90 @@
+# =========================
+# Python / virtual env
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# IDE / OS files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Project data directories
+# =========================
+cleaned_reviews/
+data/Labeled_AI_Data/
+data/preprocessed/
+data/raw/
+
+# =========================
+# Models / checkpoints / adapters
+# =========================
+models/
+llm_lora_adapters/
+
+# HuggingFace / LoRA adapter artifacts
+adapter_config.json
+adapter_model.safetensors
+adapter_model.bin
+chat_template.jinja
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+generation_config.json
+config.json
+model.safetensors
+pytorch_model.bin
+
+# Checkpoints
+checkpoint-*/
+checkpoints/
+runs/
+outputs/
+*.ckpt
+# =========================
+# ML / experiment tracking
+# =========================
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+
+# =========================
+# Cache directories
+# =========================
+.cache/
+.cache_huggingface/
+huggingface/
+hf_cache/
+transformers_cache/
+datasets_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
